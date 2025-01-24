@@ -1,10 +1,39 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{835B82C9-0279-464E-B3CB-8048D762CFBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{C8DA68D0-F827-4F61-805B-195D3D5B0D13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{8AA5751A-8C85-41BC-8A5F-57E3E6124B1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{3CF4750D-79DD-4B00-836D-AA7C776B6235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{4F852F71-7905-494F-937E-23C60CAC4F19}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AA5751A-8C85-41BC-8A5F-57E3E6124B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA5751A-8C85-41BC-8A5F-57E3E6124B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA5751A-8C85-41BC-8A5F-57E3E6124B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA5751A-8C85-41BC-8A5F-57E3E6124B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F852F71-7905-494F-937E-23C60CAC4F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F852F71-7905-494F-937E-23C60CAC4F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F852F71-7905-494F-937E-23C60CAC4F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F852F71-7905-494F-937E-23C60CAC4F19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8DA68D0-F827-4F61-805B-195D3D5B0D13} = {835B82C9-0279-464E-B3CB-8048D762CFBD}
+		{8AA5751A-8C85-41BC-8A5F-57E3E6124B1D} = {C8DA68D0-F827-4F61-805B-195D3D5B0D13}
+		{4F852F71-7905-494F-937E-23C60CAC4F19} = {3CF4750D-79DD-4B00-836D-AA7C776B6235}
 	EndGlobalSection
 EndGlobal
