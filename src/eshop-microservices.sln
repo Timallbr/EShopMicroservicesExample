@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.API", "Services\Or
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Infrastructure", "Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{D1F7F89E-59BC-41CA-AAB3-EA2FC82C715C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Domain", "Services\Ordering\Ordering.Domain\Ordering.Domain.csproj", "{74816E05-5E10-444F-92CC-50EE2BCE10D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Application", "Services\Ordering\Ordering.Application\Ordering.Application.csproj", "{F19B192B-D8C1-4D7B-88D9-76E649FF20D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{D1F7F89E-59BC-41CA-AAB3-EA2FC82C715C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1F7F89E-59BC-41CA-AAB3-EA2FC82C715C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1F7F89E-59BC-41CA-AAB3-EA2FC82C715C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74816E05-5E10-444F-92CC-50EE2BCE10D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74816E05-5E10-444F-92CC-50EE2BCE10D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74816E05-5E10-444F-92CC-50EE2BCE10D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74816E05-5E10-444F-92CC-50EE2BCE10D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F19B192B-D8C1-4D7B-88D9-76E649FF20D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F19B192B-D8C1-4D7B-88D9-76E649FF20D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F19B192B-D8C1-4D7B-88D9-76E649FF20D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F19B192B-D8C1-4D7B-88D9-76E649FF20D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,5 +90,7 @@ Global
 		{885ABEBD-D581-4D38-A06F-13E4E431664C} = {835B82C9-0279-464E-B3CB-8048D762CFBD}
 		{4799C858-8C9B-4135-B660-2EE7A3E4515C} = {885ABEBD-D581-4D38-A06F-13E4E431664C}
 		{D1F7F89E-59BC-41CA-AAB3-EA2FC82C715C} = {885ABEBD-D581-4D38-A06F-13E4E431664C}
+		{74816E05-5E10-444F-92CC-50EE2BCE10D9} = {885ABEBD-D581-4D38-A06F-13E4E431664C}
+		{F19B192B-D8C1-4D7B-88D9-76E649FF20D1} = {885ABEBD-D581-4D38-A06F-13E4E431664C}
 	EndGlobalSection
 EndGlobal
