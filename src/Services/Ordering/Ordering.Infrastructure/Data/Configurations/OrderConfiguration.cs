@@ -1,8 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Ordering.Domain.Enums;
-using Ordering.Domain.Models;
-using Ordering.Domain.ValueObjects;
 
 namespace Ordering.Infrastructure.Data.Configurations
 {
@@ -52,7 +49,7 @@ namespace Ordering.Infrastructure.Data.Configurations
                     .HasMaxLength(180)
                     .IsRequired();
 
-                    nameBuilder.Property(n => n.Country)
+                    nameBuilder.Property(n => n.City)
                     .HasMaxLength(50);
 
                     nameBuilder.Property(n => n.State)
@@ -61,6 +58,10 @@ namespace Ordering.Infrastructure.Data.Configurations
                     nameBuilder.Property(n => n.ZipCode)
                     .HasMaxLength(5)
                     .IsRequired();
+
+                    nameBuilder.Property(n => n.Country)
+                    .HasMaxLength(50);
+
                 });
 
             builder.ComplexProperty(
@@ -81,7 +82,7 @@ namespace Ordering.Infrastructure.Data.Configurations
                     .HasMaxLength(180)
                     .IsRequired();
 
-                    nameBuilder.Property(n => n.Country)
+                    nameBuilder.Property(n => n.City)
                     .HasMaxLength(50);
 
                     nameBuilder.Property(n => n.State)
@@ -90,6 +91,9 @@ namespace Ordering.Infrastructure.Data.Configurations
                     nameBuilder.Property(n => n.ZipCode)
                     .HasMaxLength(5)
                     .IsRequired();
+
+                    nameBuilder.Property(n => n.Country)
+                    .HasMaxLength(50);
                 });
 
             builder.ComplexProperty(
