@@ -1,13 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Ordering.Application.Extensions;
-using Ordering.Application.Orders.Queries.GetOrderByName;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Ordering.Application.Orders.Queries.GetOrdersByCustomer
+﻿namespace Ordering.Application.Orders.Queries.GetOrdersByCustomer
 {
     public class GetOrdersByCustomerHandler
         (IApplicationDbContext dbContext)
