@@ -46,8 +46,8 @@ namespace Ordering.Infrastructure.Data.Extensions
         {
             if (await context.Orders.AnyAsync() == false)
             {
-                await context.Orders.AddRangeAsync(InitialData.OrdersWithItems);
-                await context.SaveChangesAsync();
+                //await context.Orders.AddRangeAsync(InitialData.OrdersWithItems);
+                //await context.SaveChangesAsync();
             }
         }
     }
